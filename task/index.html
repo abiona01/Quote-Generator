@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- font awesome -->
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+   <!--Import Google Icon Font-->
+ 
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 
+   <!-- Compiled and minified CSS -->
+ 
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+ 
+  <title>Random quote generator</title>
+  <style>
+    body {
+      background-color: burlywood;
+    }
+      .click {
+          margin-top: 20px;
+      }
+      .down {
+          margin-top: 40px;
+          font-size: 25px;
+      }
+      footer {
+          
+      }
+      footer > p {
+          font-weight: 500;
+          margin-top: 70px;
+      }
+  </style>
+</head>
+<body>
+ <div class="container centeSr">
+     <h2>Quote generator</h2>
+  <p>Enter your name to get a quote</p>
+  <input type="text" placeholder="Type your name here..">
+  <a class="btn center brown darken-3" onclick="genQuote();" href="#">Get Quote</a>
+  <p class="grey-text text-darken-3 down" id="quote"></p>
+ </div>
+ <footer class="container center">
+     <p class="brown-text text-darken-2">Designed by Adewemimo 2020.</p>
+ </footer>
+  <script src="script.js"></script>
+</body>
+</html>
