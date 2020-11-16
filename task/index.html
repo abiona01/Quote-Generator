@@ -27,12 +27,21 @@
           margin-top: 40px;
           font-size: 25px;
       }
-      footer {
-          
+      .footer {
+        position: absolute;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 500px;
+        width: 100%;
+        background-color: saddlebrown;
+        color: white;
+        text-align: center;
       }
-      footer > p {
+      .foot {
           font-weight: 500;
-          margin-top: 70px;
+      }
+      .contain {
+          position: absolute;
       }
   </style>
 </head>
@@ -40,13 +49,13 @@
  <div class="container centeSr">
      <h2>Quote generator</h2>
   <p>Enter your name to get a quote</p>
-  <input type="text" placeholder="Type your name here..">
+  <input type="text" placeholder="Type your name here.." id="empty">
   <a class="btn center brown darken-3" onclick="genQuote();" href="#">Get Quote</a>
-  <p class="grey-text text-darken-3 down" id="quote"></p>
+  <p class=" contain grey-text text-darken-3 down" id="quote"></p>
  </div>
- <footer class="container center">
-     <p class="brown-text text-darken-2">Designed by Adewemimo 2020.</p>
- </footer>
+ <div class="footer">
+     <p class="foot">Designed by Adewemimo 2020.</p>
+    </div>
   <script src="script.js"></script>
 </body>
 </html>
